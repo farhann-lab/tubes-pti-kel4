@@ -1,0 +1,22 @@
+/* index.css - layout tweaks to match your HTML structure */
+.herosection-container1{
+  border-radius: 16px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* make sure top-left content is not cut off on small screens */
+.herosection-herosection{
+  background: rgba(3,6,15,0.18);
+  border-radius: 14px;
+  padding: 28px;
+  backdrop-filter: blur(6px);
+}
+
+/* small tag styles already used in HTML */
+.herosection-text2{color:#d7d9e6}
+.herosection-text3{background:linear-gradient(90deg,#ff87a2,#b23ade)}
+/* you can override individual tags further here */
